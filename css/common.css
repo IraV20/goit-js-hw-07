@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #fafafa; */
+  color: #212121;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+/*      task-1         */
+
+h2 {
+  color: #2e2f42;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.96px;
+  margin: 0;
+}
+
+.item {
+  background-color: #f6f6fe;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+
+  margin-bottom: 24px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 0;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 392px;
+}
+
+/*         task - 2       */
+
+.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  justify-content: center;
+}
+img {
+  display: block;
+}
+
+/*         task - 3       */
+
+input {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding-left: 16px;
+
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+}
+
+h1 {
+  color: #2e2f42;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.96px;
+}
+
+/*         task-4        */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+}
+
+label:first-child {
+  margin-bottom: 8px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn-sub {
+  width: 86px;
+  margin-top: 24px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+  background: #4e75ff;
+
+  color: #fff;
+
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.btn-sub:hover,
+.btn-sub:focus {
+  background: #6c8cff;
+}
+
+/*           task-5        */
+
+.widget {
+  text-align: center;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+}
+
+.change-color {
+  min-width: 148px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #ffffff;
+  font-family: inherit;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+/*        task-6        */
+
+.div-controls {
+  display: flex;
+  padding: 32px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+.div-controls input {
+  display: flex;
+  padding: 8px 0px 8px 72px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  width: 150px;
+}
+
+.div-controls button {
+  min-width: 120px;
+  padding: 8px 16px;
+  border-radius: 8px;
+
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  line-height: 1.5;
+}
+
+button[data-create] {
+  background: #4e75ff;
+}
+button[data-create]:hover,
+button[data-create]:focus {
+  background-color: #6c8cff;
+}
+
+button[data-destroy] {
+  background-color: #ff4e4e;
+}
+button[data-destroy]:hover,
+button[data-destroy]:focus {
+  background-color: #ff7070;
+}
+
+#boxes {
+  background: #f6f6fe;
+  border-radius: 8px;
+
+  display: flex;
+  padding: 32px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
